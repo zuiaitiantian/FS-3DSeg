@@ -1,9 +1,11 @@
 # FS-3DSeg
 ## Prerequisites
+```
 Python 3.8+
 pytorch 1.11.0
 CUDA 11.3
 NVIDIA GPU with Compute Capability ≥ sm_80 (RTX 3090 recommended)
+```
 
 ## Running
 Installation and data preparation please follow [AttMPTI](https://github.com/Na-Z/attMPTI "").
