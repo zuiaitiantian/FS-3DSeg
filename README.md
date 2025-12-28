@@ -16,7 +16,7 @@ pip install torch-scatter==2.0.9 torch-sparse==0.6.15 torch-cluster==1.6.0 torch
 pip install torch-geometric==2.0.4
 ```
 
-### Training
+## Training
 Pretrain the segmentor which includes feature extractor module on the available training set:
 ```
 bash scripts/pretrain_segmentor.sh
@@ -26,7 +26,7 @@ Train our method:
 bash scripts/train.sh
 ```
 
-### Evaluation
+## Evaluation
 Test our method:
 ```
 bash scripts/eval.sh
